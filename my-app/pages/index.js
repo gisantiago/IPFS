@@ -91,5 +91,18 @@ export default function Home() {
     * @param {*} needSigner - True if you need the signer, default false otherwise
   */
 
-  
+  return (
+    <div>
+      <Head>
+        <title>LW3Punks</title>
+        <meta name='description' content='LW3Punks-dApp'/>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="styles.main">
+        <div>
+          <h1 className="styles.title">Welcome to LW3Punks!</h1>
+        </div>
+      </div>
+    </div>
+  )
 }
